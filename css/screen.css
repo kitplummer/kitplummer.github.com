@@ -58,7 +58,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #227ffc;
 }
 
 table {
@@ -86,7 +86,7 @@ ul.posts {
   }
 
   ul.posts span {
-    color: #aaa;
+    color: #59644a;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
@@ -122,7 +122,7 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: #59644a;
     text-decoration: none;
     margin-left: 1em;
   }
