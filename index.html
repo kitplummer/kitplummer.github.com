@@ -1,12 +1,15 @@
-<html>
-  <head>
-    <title>kitplummer.github.com</title>
-  </head>
-  <body>
-    <h2>kitplummer.github.com</h2>
-    Just gotta hang with the cool cats!
-    <br/>
-    <br/>
-    Jump to <a href="http://blackholelogic.com">black:hole:logic</a>
-  </body>
-</html>
+---
+layout: default
+title: Battle Command Innovation Platform Blog
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+	{% for post in site.posts limit:5 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+	<li><a href="/archives.html">archives...</a></li>
+  </ul>
+
+</div>
