@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  background-color: #cccccc;
+  background-color: #999999;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
@@ -109,7 +109,13 @@ ul.posts {
   color: #a00;
   font-size: 120%;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+}
+
+.header {
+  color: #fff;
+  font-size: 90%;
+  margin-bottom: 1em;
 }
 
   .site .title a {
@@ -124,7 +130,7 @@ ul.posts {
   .site .title a.extra {
     color: #59644a;
     text-decoration: none;
-    margin-left: 1em;
+    /*margin-left: 1em;*/
   }
   
   .site .title a.extra:hover {
@@ -153,7 +159,7 @@ ul.posts {
     }
     
       .site .footer .contact a {
-        color: #8085C1;
+        color: #7e800f;
       }
     
     .site .footer .rss {
