@@ -1,6 +1,13 @@
-!>http://en.wikipedia.org/wiki/File:APP-6a_Example2.png!
+---
+layout: post
+title: MIL-STD-2525 Service Needed
+---
 
-h1. "MIL-STD-2525B":http://en.wikipedia.org/wiki/APP-6A Service Needed!
+h1. {{ page.title }}
+
+!http://upload.wikimedia.org/wikipedia/commons/7/71/APP-6a_Example2.png!
+
+"MIL-STD-2525B":http://en.wikipedia.org/wiki/APP-6A is a subset/cousin of a STANAG standard for military symbology.  We're interested in these symbols as map icons.  There's "proprietary":http://www.objectraku.com/06_prodserv/symbolsindex.htm options - but, that forces a specific library/framework.  
 
 Obviously, especially within the Mil/DoD space, not everything makes sense to be an Open Source Software project.  But, then somethings just lend themselves to the "Open Technology Development":http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf ideals.
 
