@@ -11,7 +11,7 @@ h1. {{ page.title }}
 
 Obviously, especially within the Mil/DoD space, not everything makes sense to be an Open Source Software project.  But, then somethings just lend themselves to the "Open Technology Development":http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf ideals.
 
-Where's there's low intellectual property and high-potential for existing OSS reuse - it's one of those latter prospects.
+Where there is low intellectual property and high-potential for existing OSS reuse - it's one of those latter prospects.
 
 All I want to be able to do is retrieve the appropriate icon based on a given "symbol code":http://webhelp.esri.com/arcgisdesktop/9.1/body.cfm?tocVisable=1&ID=2778&TopicName=Symbol%20ID%20code
 
