@@ -1,0 +1,16 @@
+---
+layout: post
+title: Python vs Java and More
+---
+
+h1. {{ page.title }}
+
+!<http://nebula.nasa.gov/static/nebula/nebula-badge.png! 
+
+Ok, so the title here is a bit snaggly.  But, unfortunately the decisions of others are coming into play.  I'm specifically talking about the decision paths taken by both Google and NASA in their choices to build application infrastructures out of Python (at least initially).  Actually given the timeline of events I'm thinking that NASA probably was following the intelligence of Google.  This isn't to say that NASA won't bring Java in via "Appscale" in the future.
+
+There's an "interesting discussion":http://stackoverflow.com/questions/1085898/choosing-java-vs-python-on-google-app-engine on the subject at "stackoverflow.com":http://stackoverflow.com/questions/1085898/choosing-java-vs-python-on-google-app-engine.  Is it really just that, code portability - specifically in terms of size?  Well, I can see it, and "noted some Ruby (and a Grails comment)":http://blackholelogic.com/2008/4/21/rails-vs-merb-footprint footprints a while back.  If library support is a wash, as suggested, I believe the prospect for library inclusion has to lean towards Python, as testing doesn't require VM testing.
+
+Having spent a significant amount of time with Ruby over the past few years (thanks to the Air Force for allowing me) I have a tendency to want to compare it as potential app platform.  Reading "stuff like this":http://github.com/blog/470-deployment-script-spring-cleaning from the Github crew doesn't help either.  Anyway...no need to stray here.  The community argument, or the maturity/professionalism of Python isn't a hard sell.  Based on this tweet from NASAnebula - "Hiring Python/Django Developers to work on our highly-scalable cloud computing platform at NASA. Send your res to nebula-jobs@lists.nasa.gov" I have to believe they're making the investment.
+
+So, what does this mean to BCIP?  Well, at some point we're going to have to make a decision too.  Maybe it's time.  Sure wish the "Nebula":http://nebula.nasa.gov guys would get back to me...
