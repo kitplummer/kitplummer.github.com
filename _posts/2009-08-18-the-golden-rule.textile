@@ -5,7 +5,7 @@ title: The Golden Rule?
 
 h1. {{ page.title }}
 
-I don't know much about Teradata, just enough that there is mindshare.  The Golden Rule as "defined here":http://smartdatacollective.com/Home/20830 is "that motivated people will do whatever it takes to try and be successful".
+I don't know much about Teradata, just enough to know that there is mindshare.  The Golden Rule as "defined here":http://smartdatacollective.com/Home/20830 is "that motivated people will do whatever it takes to try and be successful".
 
 I think this will ultimately be my downfall.  I think I have it sooo bad that I tend to navigate towards the biggest roadblocks.
 
