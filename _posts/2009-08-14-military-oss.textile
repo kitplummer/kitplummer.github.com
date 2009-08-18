@@ -16,4 +16,4 @@ How about bringing the DoD, and it's requirements to the OSS community, rather t
 [Big thanks to the GTRI crew for hosting the Mil-OSS event!]  Thanks specifically to Joshua Davis for herding us cats, and pushing us in the right direction.  Also, thanks to all those that took time out to participate - it shows that we're on to something. ;)
 
 Follow the content on Twitter: @miloss 
-Or, the site: http://mil-oss.org
+Or, the site: "http://mil-oss.org":http://mil-oss.org
