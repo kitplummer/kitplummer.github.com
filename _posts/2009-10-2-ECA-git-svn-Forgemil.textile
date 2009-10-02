@@ -5,7 +5,7 @@ title: ECA, git-svn, and Forge.mil
 
 h1. {{ page.title }}
 
-I validated today that it is possible to use "git-svn":http://www.kernel.org/pub/software/scm/git/docs/git-svn.html with "Forge.mil":https://software.forge.mil and the standard Subversion client.
+I validated today that it is possible to use "git-svn":http://www.kernel.org/pub/software/scm/git/docs/git-svn.html with "Forge.mil":https://software.forge.mil and the standard Subversion client - if you are using an ECA.  There probably is a way to trick Git into finding the non-standard SVN client if you're using a CAC.  I could probably help if needed.
 
 Good news.  Now I can mirror projects easily between "Github":http://github.com and Forge.mil.  Obviously there's no real point here, save for simplifying access to some code.  Well, I suppose there could be some specific configuration that would require the code to lie in within the Forge.mil firewall - but, then that's probably up for a bad "smell" award.
 
