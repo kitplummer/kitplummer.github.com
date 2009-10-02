@@ -23,8 +23,7 @@ In your '.svn/subversion/servers' file under the [groups] header ad this line:
 
 Then, create a new section after the [global] section like this:
 
-<pre><code>
-[forgemil]
+<pre><code>[forgemil]
 ssl-client-cert-file = /path/to/your/cert.p12
 ssl-client-cert-password = your certificate password
 </code></pre>
