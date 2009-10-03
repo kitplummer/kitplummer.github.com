@@ -1,0 +1,28 @@
+---
+layout: post
+title: Data Services
+---
+
+h1. {{ page.title }}
+
+It all starts with data.  Without some sort of accessible data the potential for generativity is severly limited, as it would require siloed data from the start.  "This post on the Three Laws of Open Government Data":http://eaves.ca/2009/09/30/three-law-of-open-government-data/ does an excellent job of summarize the needs for a foundation of innovation.
+
+<pre><code>1. If it can't be spidered or indexed, it doesn't exist
+    2. If it isn't available in open and machine readable format, it can't engage
+    3. If a legal framework doesn't allow it to be repurposed, it doesn't empower</code></pre>
+    
+And "this one referenced, expands to a more rudimentary set of rules":http://resource.org/8_principles.html, which I believe applies to military data sources, in name of VIRT.  There is a hidden gem in that post: "Compliance must be _reviewable_".  This poses a few problems for this list.  Because the majority of the defense space's data is wrapped up in PoRs it is very difficult to imagine "Primary" exposure of the data/services.  "Accessibility" and "Non-discriminatory" are another set of issues - as the data is generally hidden in a maze of connectivity barriers (in some cases for good reason).  "Reviewability" isn't a new _ility_ - but a tough for a data interface, at least from the notion of a common review.  But, if data is accessible and non-discriminatory it +should not+ be an issue.  Simple as that.
+
+Here's a sample dataflow to promote Open data via a REST interface within in the BCIP structure:
+
+!/images/BCIP_Data_Services_Concept.png!
+
+In this case the data service impedance matches the XMPPCollab subsystem, provide aggregate feeds of the current picture state. It creates a single KML file based on the stack of "tracks" present at a given time. On the back-end BFT is feeding out ADD, UPDATE, and DELETE messages which get processed by the DMF box and converted to a single XML document. The data service pulls each message off the XMPP pub/sub queue and creates a db entry. When a request is made for the KML file the data service will generate the document on the fly from the current database entries.
+
+The "BCIP" box is a simple Grails microwebapp, and is extremely testable - even in isolation against "mocked" data sources.  The idea that a "Test Compliance Kit (TCK)" could exist would fit very well within the software architecture of this BCIP data service.  The microwebapp is deployed to any JEE-compliant app server.  
+
+We've built similar services using the Ruby on Rails framework which can deploy to a JEE app server or to a traditional LAMP stack.  The Ruby on Rails solution is much lighter weight from an engineering perspective and much smaller from a deployment footprint.  Given the portable nature of apps in a cloud sense, the need for lightweight services is becoming part of software SWAP engineering.
+
+Also, data services in this architecture lend themselves to reusability, and extensibility (by separating data, logic, and UI concerns).  It is possible to build n-UIs on a service like this.  The "web" as a platform is nothing new, and ultimately is the source of Web2.0 and other modern Internet innovations.  "ProgrammableWeb":http://www.programmableweb.com/ is a good source for publicly available data sources (APIs).
+
+So, let's get to exposing some data, so +WE+ can start innovating.
