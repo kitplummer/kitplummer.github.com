@@ -15,7 +15,7 @@ And "this one referenced, expands to a more rudimentary set of rules":http://res
 
 Here's a sample dataflow to promote Open data via a REST interface within in the BCIP structure:
 
-!/images/BCIP_Data_Services_Concept.png!
+!/images/BCIP_Data_Service_Concept.png!
 
 In this case the data service impedance matches the XMPPCollab subsystem, provide aggregate feeds of the current picture state. It creates a single KML file based on the stack of "tracks" present at a given time. On the back-end BFT is feeding out ADD, UPDATE, and DELETE messages which get processed by the DMF box and converted to a single XML document. The data service pulls each message off the XMPP pub/sub queue and creates a db entry. When a request is made for the KML file the data service will generate the document on the fly from the current database entries.
 
