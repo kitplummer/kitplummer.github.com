@@ -1,0 +1,49 @@
+---
+layout: post
+title: Pachube, Gumstix, and a Go!Temp...
+---
+
+h1. {{ page.title }}
+
+<b>W</b>ell, my holiday-break project took a bit longer than I thought.  As usual, it was a bit more involved that I really expected.  Here's the list of players:
+
+* "Pachube":http://www.pachube.com - a catalog of sensors and their data with an nice RESTful API
+* "Gumstix Verdex Pro":http://www.gumstix.com/store/catalog/product_info.php?products_id=210 - very small 600MHz XScale computer modules 
+* "Go!Temp":http://www.vernier.com/go/gotemp.html - USB temp probe
+
+A couple of caveats to this story.  First, I've already been working with Ruby on my Gumstix so knew going in I was going to have to due some yak shaving.  But, I already have Rubygems installed and a slew of required gems.  Second, I am normally working with Phidgets connected to the Gumstix.  But, I wanted to get the Go!Temp sensor working for a few different projects.  
+
+I already had a Ruby script that could get the temp from the Go!Temp on Linux:
+
+<script src="http://gist.github.com/270979.js?file=gotemp.rb"></script>
+
+So, first was getting the temp from the Go!Temp on the Gumstix.  Big problem, stock system build doesn't include the ldusb driver.  So, I had get an OpenEmbedded build environment setup, and the kernel to compile the ldusb driver.  Ugh.  Too many details so if you want the driver "here ya go":http://blackholelogic.com/assets/2010/1/7/ldusb.ko - just insmod it to install.  With the ldusb driver installed, I was able to successfully test the gotemp.rb ruby script above.
+
+Now on to the Pachube API.  I had to send an email to get an invite code.  Once received it was only a few minutes before I could start hitting the "RESTful API":http://community.pachube.com/api with @curl@.
+
+There's two basic options for getting data to your sensor data feed.  You can either submit data by using HTTP PUTs to your feed.  Or, you can setup Pachube to get the data from the device itself.  Because my device is sitting behind my firewall, and connected to my wifi network I'll push up my info.
+
+I figured this was a great opportunity to create a spiffy Ruby library for access the Pachube API as there really wasn't anything complete for the RESTful interfaces.  I also was looking for an opportunity to dig into "HTTParty":http://github.com/jnunemaker/httparty a bit.  Since Pachube expects either CSV or EEML, their chosen schema.  Since EEML comes with a nice XSD I could use Ruby's xsd2ruby tool to convert the schema to Ruby objects and use the built-in marshalling capabilities.  It didn't take very long before I'd had my fill of that mess.  I did have a fall-back plan in the "eeml-ruby":http://github.com/Floppy/eeml-ruby library.
+
+I did spend a bit of time in the middle of this project updating the eeml-ruby to be a bit more complete in its ability to generate EEML objects from EEML XML.   The resulting Pachube library, "pachuber":http://github.com/kitplummer/pachuber, is still in a rough state, but works for getting a feed, or updating one.
+
+Here's my simple posting script:
+
+<script src="http://gist.github.com/271004.js?file=post_to_pachube.rb"></script>
+
+I just added a simple cron job to update the temp reading once an hour.
+
+The feed is "here at Pachube":http://www.pachube.com/feeds/4077
+
+Here's the recent history:
+
+<img src="http://www.pachube.com/feeds/4077/datastreams/0/history.png?s=6&g=true&c=33cc66&b=true&t=Temp%20at%20My%20Office">
+
+It is also possible to get a simple Flash graph, or set triggers on various conditions, from the feed's web UI.
+
+----
+
+So now what?  I haven't quite figured out how to consume other Pachube feeds for a nice mashup.  But, I'm planning on adding more sensors.  Perhaps an anemometer?  
+
+
+

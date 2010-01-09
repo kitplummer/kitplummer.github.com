@@ -1,0 +1,10 @@
+---
+layout: post
+title: The Pragmatic Power of Community in Open Source
+---
+
+h1. {{ page.title }}
+
+The debate as to the relativity of "Community" of Open Source is a continuum, ad nauseum.  From early '06 "this article":http://www.onlamp.com/pub/a/onlamp/2006/01/12/no_oss_community.html addresses many of intricacies - especially the relationship(s) between open-source and proprietary systems.  More recently the "issues" associated with freeloading have raised another level of questions.  "Freeloading":http://www.informationweek.com/blog/main/archives/2009/06/my_open_source.html;jsessionid=1GK3BJVLIIORWQSNDLPSKH0CJUNN2JVN is nothing new.  We all do it is some way or another.  Matt Asay, confirms "John Mark Walker's beliefs" on community and Zen":http://news.cnet.com/8301-13505_3-10268160-16.html?tag=mncol;title.
+
+But, do you need a practical example of why community is so very necessary?  First, one very keen data point here: inevitably almost ALL software will have some relationship to Open Source, but most likely a direct one, via an embedded dependency.  Open Source is about abstractions and reuse, a sort of pyramind compounding.  Open Source projects innovate by freely aggregating other's innovation.  This isn't a linear progression.  It is very similar to the power of social networking and crowdsourcing if not a direct relationship itself ("GitHub":http://github.com knows this).  So, here's the revelation.  There's a inherent NEED for community...and the "Grails":http://grails.org crew have realized that it is virtually impossible to manage the embedded stream of dependencies on one side of the fence - as "Marc Palmer":http://www.anyware.co.uk/2005/2009/07/03/grails-12m1-and-why-you-need-to-download-it-now/ very well points out - and asks for help.  If there's one way to "seduce" a community - it is to ask for help.  The '''Real Power''' of the OSS community is how we respond to these pleas.
