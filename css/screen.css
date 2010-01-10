@@ -101,7 +101,7 @@ ul.posts span {
     font-size: 110%;
     text-align: justify;
     width: 40em;
-    margin: 3em auto 2em auto;
+    margin: 1em auto 2em auto;
     line-height: 1.5em;
 }
 
@@ -113,9 +113,15 @@ ul.posts span {
 }
 
 .header {
-    color: #fff;
-    font-size: 90%;
-    margin-bottom: 1em;
+    color: #005095;
+    font-size: 120%;
+    font-family: Lucida Console;
+    font-weight: bold;
+    text-align: right;
+}
+
+.content {
+
 }
 
 .site .title a {
