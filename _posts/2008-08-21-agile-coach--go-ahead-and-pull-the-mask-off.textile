@@ -1,0 +1,12 @@
+---
+layout: post
+title: Agile Coach?  Go Ahead and Pull the Mask Off.
+---
+
+I love it when things time themselves perfectly.
+
+In Scooby Doo fashion I can imagine an episode ending for this one.  Great timing, as I've kicked off my own sl/rant on Agile and Scrum "here":http://blackholelogic.com/2008/8/18/scrum-agile.
+
+This "guy":http://www.whattofix.com/blog/archives/2008/08/okay_i_hate_the.php dropped an impressive load of ignorance.  He calls himself an Agile coach...which predicates that he informs developers on how to best apply the Agile practices.  I'm just guessing, but I'd bet he's more in line with "process policeman"...pimping Scrum, or some other methodology.  Then, he's got the ineptitude to drag the "Manifesto":http://www.agilemanifesto.org in to his diatribe.  (Run Agile run...here comes more Methodology madness to stab you in the back!)
+
+Proof's in the pudding...and this dude is swimming in it.  "Heck, I've been running agile teams for over 20 years. I know the stuff. I live the stuff. I teach the stuff. I love the stuff.", says he.  Whatevar.  20 bucks says he's a SM, probably with a PMP cert.

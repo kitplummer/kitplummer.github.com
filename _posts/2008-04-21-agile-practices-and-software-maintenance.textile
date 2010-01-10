@@ -1,0 +1,12 @@
+---
+layout: post
+title: Agile Practices and Software Maintenance...
+---
+
+I recently wrote a non-traditional paper looking at how it might be possible to integrate Agile practices into a software maintenance activity.  Academically I don't expect the paper to go over so well - but, believe it might be of interest to some who've been asked the same questions as me.
+
+The paper uses a very simple "helloworld" application written in Ruby and highlights a few really cool Ruby tools.
+
+Anyway "here's the paper in PDF form":http://blackholelogic.com/assets/2008/4/21/Software_Engineering_and_Practical_Agile_Maintenance.pdf - feedback always appreciated.
+
+I've also written a very similar paper on the potential for IV&V integration into an Agile project.  I'll probably post this one as well in the near future.

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Haskell.  Overhead Anomoly?
+---
+
+Is it me...or is this the heaviest "Hello World!" you've ever seen?
+
+<pre>
+siryn-apus:~/Development/Languages/Haskell kplummer$ ls -l
+total 648
+-rwxr-xr-x   1 kplummer  kplummer  317580 Aug  9 21:37 hello
+-rw-r--r--   1 kplummer  kplummer     215 Aug  9 21:37 hello.hi
+-rw-r--r--   1 kplummer  kplummer      31 Aug  9 21:26 hello.hs
+-rw-r--r--   1 kplummer  kplummer    2008 Aug  9 21:37 hello.o
+siryn-apus:~/Development/Languages/Haskell kplummer$ cat hello.hs
+main = putStrLn "Hello, World!"siryn-apus:~/Development/Languages/Haskell kplummer$ 
+</pre>
+
+Compiled with ghc.

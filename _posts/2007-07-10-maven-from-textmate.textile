@@ -1,0 +1,32 @@
+---
+layout: post
+title: Maven from TextMate...
+---
+
+If you have a Mac and you're not using "TextMate":http://www.macromates.com - you're definitely missing out.  TextMate is by far the best "editor" for any platform.  As with any other editor there's a slight learning curve, but it is way worth it.
+
+As I've been working with projects that build out from "Maven":http://maven.apache.org my dependency on "Eclipse":http://www.eclipse.org and "iTerm":http://iterm.sourceforge.net has grown.  Wanting to be able to make quick edits to the build environment without Eclipse I decided to look at run Maven from TextMate.  To my surprise that capability doesn't exist out of the box.  But, oh well.  TextMate's Bundles are so well thought out that adding in the capability to my environment was easy.  I found that the Java Bundle has an 'Ant' command - so I started there.
+
+I simply 'copied/cloned' the 'Ant' command and renamed it 'Maven'.
+
+Then I started with the 'Ant' commands:
+
+<pre>
+<code>
+cd "$TM_DIRECTORY"
+export JAVA_HOME=${TM_JAVA_HOME:-/System/Library/Frameworks/JavaVM.framework/Home}
+ant -s build.xml 2>&1 | "$TM_BUNDLE_SUPPORT/bin/htmlize_ant.py"
+</code>
+</pre>
+
+Then, modified the bit where 'ant -s build.xml' is referenced to:
+
+<pre>
+<code>
+cd "$TM_DIRECTORY"
+export JAVA_HOME=${TM_JAVA_HOME:-/System/Library/Frameworks/JavaVM.framework/Home}
+mvn install 2>&1 | "$TM_BUNDLE_SUPPORT/bin/htmlize_ant.py"
+</code>
+</pre>
+
+That's it.  It'd probably be worth adding some other Maven commands other than just 'install' - but, that's all I needed.  ;}

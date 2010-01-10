@@ -1,0 +1,55 @@
+---
+layout: post
+title: Design Patterns as an Introduction to Software Engineering?
+---
+
+<pre>
+Integration Patterns (enterprisy)
+	|->Components
+ 		|->Design Patterns
+			|->OOD
+			|->Language-specific tools (vectors, maps, etc.)
+				|->Basic programming constructs (controls, functions, etc.)
+		|->Application Programming Interfaces (abstractions)
+			|->OOP
+		|->Testing (unit)
+</pre>
+
+Somewhere to bind all of this together is tooling.  Eclipse, maybe?
+
+There has to be an easy approach to start with.  Again, the objective is a kid-friendly, practical approach to learning this stuff.  
+
+Here's a couple of my assumptions:
+
+* You can't teach a language as the introduction (syntax before logic)
+* You can't solve a problem with out the tools to do so (recursion, functions, etc.)
+* You can break the problem down to manageable chunks (systems thinking)
+* IT all starts with object-oriented thinking, independent of languages and tools
+* Testing must be integrated in to the practice of implementation (test-driven development)
+* Patterns should be used to organize the design, as well as the implementation
+
+Based on these here's what I'm thinking might be a path forward.  Start with a tool like "Greenfoot":http://www.greenfoot.org/ that somewhat masks the language - and focus on "objects" and OOD.
+
+Once there is a basic understanding of "objects" - expose (in this case Java) the language syntax and structure as a byproduct of the visual-first representation.  Introduce constructs like looping, and expand on the notions of OOP (polymorphism, inheritance, etc.)
+
+From here, it is possible to raise the notion of patterns - especially as you move from one implementation to the next.  Most importantly, thinking in terms of applying patterns as part of the design and implementation processes.
+
+Somewhere in here Test-Driven Design should be introduced and made part of the normal design and implementation process as well.  But, not before one can conceptualize a pattern.
+
+Then, there needs to be an integration process - linking two "components" together via an interface.  This does bring up the question of whether or not a class is by default a component.  Wikipedia's definition of "software component":http://en.wikipedia.org/wiki/Software_component is fair and worthy at this point.  I think the notion of "deployment" really helps stamp a component.  It isn't possible to integrate/deploy a class, at least not unless it is a component. This thought then introduces "containers" and "serialization" which I'll save for a rainy day.
+
+So, what I really need is an experiment.  Something/someone that can take the learning process from cradle-to-grave.
+
+Here's what I want to do:
+
+# Introduce Greenfoot, introducing OOD/OOP and some basic extensions to existing projects
+# Introduce Java, at a very basic tooling level
+# Introduce Eclipse, and some basic debugging skills
+# Introduce Junit and testing
+# Revisit Greenfoot, adding some complexity to the algorithms and java implementation
+# Expand on Java, objects and constructs
+# Introduce patterns to assist in OOD/OOP learning
+
+There needs to be a quantifiable objective - which might be tough with each individual's learning abilities.  Also, the alternative - more traditional approach needs to be spelled out.  I'm thinking I could easily take a high-school computer programming curriculum and apply that though.  At the end each "student" could be given a project.  The results could be both objectively and subjectively review for both function AND beauty.
+
+It is starting to come together...and a book just might be plausible.

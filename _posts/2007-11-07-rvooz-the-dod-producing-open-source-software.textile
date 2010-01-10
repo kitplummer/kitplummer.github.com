@@ -1,0 +1,24 @@
+---
+layout: post
+title: rVooz: The DoD Producing Open Source Software?
+---
+
+"rVooz":http://www.rvooz.org is my current project at "Gestalt, LLC. (soon to be Accenture National Security Services)":http://www.gestalt-llc.com.  
+
+We've been working on the project for almost two months now.  Learning the team dynamics, the technologies, the requirements, the politics, the scope of just how far we can reach.
+
+I'll just refer you to the http://www.rvooz.org for more information on what it is.
+
+table{border:1px solid black}.
+|{background:#ddd}.!http://www.rvooz.org/cartoon.png!|
+
+There are a couple of really cool things about the "rVooz":http://www.rvooz.org project.  I think the most outstanding piece is that we are building Open Source Software, and being funded by the U.S. Government.  We'd like to the think we are the first "official" OSS project to be structure as such (nobody is knocking the claim just yet).  So, why is this cool?  Well, it really comes down to the fact that we will solve the problem - and share it with anyone who thinks they can benefit.  It is no secret that the Department of Defense is tired of reinventing the wheel and wasting time and money.  The "Open Technology Development (OTD)":http://www.oss-institute.org/NCOSPR/OTDRoadmap_v3_Final.pdf report addresses this very well. It really just doesn't make sense considering the umbrella of Federal spending that anything get engineering twice (let alone every time a new stovepipe project is kicked off).  Ok, enough of that.  The byproduct of the effort being Open is that there is a high probability for commercial opportunity as well - in parallel.  As hard as it might be to comprehend, it really is a Win-Win-Win.
+
+It is also very cool because we have an opportunity to shape a solution space...by, as Nike likes to sell, "just doing it".  The potential for having all kinds of influences, both from usage, and developmental input is very exciting.  I can tell you that not a day goes by that we aren't coming up with a new application for the technology.
+
+We are busy working on a first-cut "live" demonstration that will highlight the basic idea.  Yes, a prototype.  But, it isn't a waste.  Because we are blending the "production of Open Source":http://producingoss.com with Agile methods it is a continuous progression.  The great thing is that we are constantly learning from other projects, using what already exists to architect the system(s).  Even if we have to course correct (which we are happy to do if necessary) we still are ensuring that we are building the right system, and building the system right.
+
+Here's a short laundry list of stuff we are playing with: REST, OSGi, Maven, Hudson, (Maybe Groovy =))...Ruby, Facebook, Google Earth, Jabber and so on.
+
+Stay tuned...more info to come soon.
+

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Leopard Saves Man from Entourage.
+---
+
+Finally, finally, finally.  Thank you, thank you, thank you.  Apple has finally given me the last piece of the pie.  I can now officially kick that PoS Entourage to the curb.
+
+The hanging chad has been the calender integration.  Until now, I had no good way of accepting, declining meetings.  The solution is still crap, but it will at least remove Entourage from being a "requirement".
+
+I'm not sure why Apple can't just do what Entourage does and give me the opportunity to accept, decline, or say tentative.  But, what they have given me is this:
+
+Microsoft Outlook Web Access: the url to Outlook's web interface.  Weird, but is enough progress.  I suppose it really isn't Leopard, but an updated Apple Mail.  I'm not sure about the rest of Mail, but that is enough.

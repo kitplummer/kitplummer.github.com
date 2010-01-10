@@ -1,0 +1,8 @@
+---
+layout: post
+title: Self-Study Programming?  Why Not?
+---
+
+"This blog post":http://forums.construx.com/blogs/stevemcc/archive/2007/08/12/how-to-self-study-for-a-computer-programming-job.aspx is an interesting look in to formal self-study and its relationship to the hiring process.  There's some good meat in the comments too.
+
+Just relaying...the link.  But, I highly doubt "books read" really counts for much during a corporate-ish interview.  Would be cool if management/leadership really did understand the value.  During interviews where I get to play the interviewer I always ask what would I see on the interviewee's coffee table.
