@@ -1,8 +1,0 @@
----
-layout: post
-title: Pachube, Gumstix, and a Go!Temp...
----
-
-h1. {{ page.title }}
-
-Was having problems getting GEOSERVER_DATA_DIR to take using the normal environment variable are WEB-INF/web.xml tricks for the Mac installer version of "GeoServer":http://geoserver.org/display/GEOS/Stable.  Ultimately had to set it using the JVM options in the GeoServer.app's Info.plist.  Works great now.  Pretty cool, and the little window showing the server out is cool.  All made possible by Jetty...very nice.
