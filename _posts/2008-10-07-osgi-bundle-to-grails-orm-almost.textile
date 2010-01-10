@@ -1,0 +1,51 @@
+---
+layout: post
+title: OSGi Bundle to Grails' ORM, Almost...
+---
+
+After some searching of the typical sources I'd found this "post":answering a different question.  But, the answer has turned out to be to enable the HSQLDB under GORM to run in server mode.
+
+<pre>
+    <code>
+        java -cp ./lib/hsqldb-1.8.0.9.jar org.hsqldb.Server -database.0 mem:devDb -dbname.0 devDb
+    </code>
+</pre>
+
+Then, just set the dataSource to look like this:
+
+<pre>
+    <code>
+        dataSource {
+			dbCreate = "create-drop" // one of 'create', 'create-drop','update'
+			//url = "jdbc:hsqldb:file:devDB;shutdown=true"
+			url = "jdbc:hsqldb:hsql://localhost:9001/devDb"
+		}
+	</code>
+</pre>
+
+Now, the SQL stuff in the bundle is pretty straight forward:
+
+<pre>
+    <code>
+        try {
+			Class.forName("org.hsqldb.jdbcDriver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} 
+
+		System.out.println("DATA -> XMLSTRING: " + data);
+
+		try {
+			Connection con = DriverManager.getConnection
+				( "jdbc:hsqldb:hsql://localhost:9001/devDB", "sa","");
+
+			Statement stmt = con.createStatement();
+			ResultSet rs = stmt.executeQuery("SELECT * FROM RESOURCES");
+	
+	...
+	</code>
+</pre>
+
+Although this route might seem like a hack, it really is just the quickest, and lightest way to get things glued ... so I'm pretty happy.  I'm not sure what affect running port 9001 for the HSQLDB will have, and I can't think of a good reason why it matters.
+
+If only I could get Grails to launch the database in server mode, instead of having to launch it manually.  I suppose there's a Maven or Ant task in the near future.

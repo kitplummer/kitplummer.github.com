@@ -1,0 +1,12 @@
+---
+layout: post
+title: Another Great One...Computer Science -> Creativity?
+---
+
+The first comment at "this":http://dpn.name/index.php/2007/10/18/the-sorry-state-of-technology-education/ blog just points out the ignorance that is floating around the disparity between IT and CS, with regard to software engineering.
+
+IT DOES NOT EQUAL SOFTWARE ENGINEERING.  CS DOES NOT EQUAL SOFTWARE ENGINEERING.
+
+IT || CS || SW != INNOVATION
+
+The blog is well thought out, and on the spot.  But, I think it is a bit short-sighted - the most innovative companies today are academic startups.  Let me just make a few points about this real quick.  Startups are started by entrepreneurs, not technologist.  There are very, very few individuals who can cover both, successfully.  Think about the Steves of Apple.  Or, even the goons that started MS.  Let's not start thinking that Academia is failing, in general.  There is no doubt that software education is broke.  I just don't think that is bleeding in to a lack of software innovation.  All of the "semantic" stuff we are going to be talking about in the next few years, exists in Academia right now - brewing.

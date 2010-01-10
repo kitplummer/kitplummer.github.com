@@ -1,0 +1,13 @@
+---
+layout: post
+title: SOA & SEI
+---
+
+It's official: SOA is for real!
+
+"SEI Course @ SEI":http://www.sei.cmu.edu/news-at-sei/whats-new/coursesoa2.htm validates it.  Here's the course "details":http://www.sei.cmu.edu/products/courses/p59.html
+
+I always find it interesting how various technologies, methodologies, etc. can be around for decades - and all it takes to for them to find legitimacy is a strange relationship, or a back-page note in a trade magazine.  I'm not saying that SOA isn't legit already - but, the commercial and Open Source arenas have really been in "build it and they will come" mode (especially with Web Services and the newer Enterprise Service Bus concept).
+
+It will be interesting to see what kind of impact SEI has on justifying SOA to F50 company's IT shops.  I also did notice that SEI has done well not to mention Java, or any implementation language for that matter...
+
