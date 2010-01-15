@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The future is wide open" at Sunlight Foundation...
+title: _The future is wide open_ at Sunlight Foundation...
 tags: open
 ---
 
