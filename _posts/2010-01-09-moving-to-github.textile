@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving to Github...
+tags: test, test1
 ---
 
 h1. {{ page.title }}
