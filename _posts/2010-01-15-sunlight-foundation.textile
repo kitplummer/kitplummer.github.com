@@ -1,0 +1,13 @@
+---
+layout: post
+title: "The future is wide open" at Sunlight Foundation...
+tags: open
+---
+
+h1. {{ page.title }}
+
+I've recently been enlightened to how some "blog snatching" works.  I recent "post":http://www.computerworlduk.com/community/blogs/index.cfm?entryid=2730&blogid=35 has shown up under various websites, including some in foreign languages.  Not very cool.  But, at the same I'm neither surprised or too worried about - it is the Internet after all.
+
+But, because I did mention the Great American Hackathon in the post I sent a short note to Sunlight Foundation.  Being an interesting, well-led project my post has appeared in their press center, as a "reprint":http://www.sunlightfoundation.com/presscenter/articles/2010/01/12/future-wide-open/ - including a link to the original article.  From a web flow perspective we need to come up with the semantic capability to just '''include''' the source article in the new press release, which would in some way provide the appropriate attribution.  I really like the way Github's "gist":http://gist.github.com uses "embed" capability to provide the gisted stuff via a script.  Sure, this is really semantic sharing, but is seems like there is an opportunity in the middle.  I'll have to thing on that.
+
+So...ups to Sunlight Foundation, and downs to the blog sites who are consuming content without attribution or even a link to the source.
