@@ -232,6 +232,11 @@ ul.posts span {
     margin-bottom: 1em;
 }
 
+.retweet, .facebook, .digg {
+    float:left;
+    margin: 0px 5px;
+}
+
 /*****************************************************************************/
 /*
 /* Comments
