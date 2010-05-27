@@ -1,0 +1,19 @@
+---
+layout: post
+title: Military OSS WG2
+tags: open miloss
+---
+
+h1. {{ page.title }}
+
+Oh the shame.  Three months since my last post.  Trust me, good stuff was happening...I was collecting a paycheck (the hard way).
+
+Just want to spread the word.  Me and the tribe are congregating for the second rev of the MilOSS Working Group.
+
+"Check it!":http://miloss.org
+
+We're meeting in DC!  August 2 through the 5th, culminating with a BarCamp (and Ignite sessions through the week evenings).
+
+If you have interests in or around life, liberty and the pursuit of open source we're expecting you.
+
+!http://mil-oss.org/iwy_wg2.jpg!
