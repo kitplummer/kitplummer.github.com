@@ -10,7 +10,7 @@ It's been a bit...been too busy.  Changes coming.  Anywho...
 
 Back in December, we kicked off the "Open Tucson":http://www.opentucson.org/2009/12/first-meeting/ working group with the aspiration to push Tucson into the "open" limelight with many other forward-leaning municipalities. The city has some cool initiatives, services like "SeeClickFix":http://www.seeclickfix.com/tucson, that are making there way into public use.
 
-"SunTran":http://suntran.com/, the cities mass transit service, has made its bus service information, available in a close-to-realtime view via Google Maps or Microsoft Virtual Earth maps.  Even the data is being distributed in map form it would be really cool if SunTran made the raw information available for the opportunity of mobile apps, mashups or any innovative use.
+"SunTran":http://suntran.com/, the city's mass transit service, has made its bus service information, available in a close-to-realtime view via Google Maps or Microsoft Virtual Earth maps.  Even the data is being distributed in map form it would be really cool if SunTran made the raw information available for the opportunity of mobile apps, mashups or any innovative use.
 
 A few of us from the Open Tucson group met with SunTran last week to discuss.  While they are willing to help, they are somewhat handcuffed by the system that homes all the data behind the maps.  Ian Johnson, from the "Moia Group":http://www.moiagroup.com, and I poked around the client-side SunTran "WebWatch":http://www.suntran.com/webwatch/map.aspx?mode=g code a bit and found the data feed that the maps consume.  It's ugly, really ugly - "take a peek here":http://www.suntran.com/webwatch/UpdateWebMap.aspx?u=2.
 
