@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Busted - A Tucson SunTran WebWatch Feed Proxy Service
-tags: open tucson
+tags: open, tucson
 ---
 
 h1. {{ page.title }}
@@ -16,6 +16,8 @@ A few of us from the Open Tucson group met with SunTran last week to discuss.  W
 
 So, I built a simple "Sinatra":http://sinatrarb.com app to home a proxy service, to repackage the data into a more usable format.  I've put the service up under the "Heroku":http://heroku.com IaaS/PaaS, hey it's free.  In order to test, and more importantly capture analytics for, the proxy feed I've put the proxy behind "Apigee":http://www.apigee.com.  Apigee is a API proxy, that provides Google Analytics-like information about usage.  Cool stuff.
 
-Here's the service's site: "http://busted.kitplummer.apigee.com":http://busted.kitplummer.apigee.com.  There's some basic instructions there, but I think it is easy to see that "http://busted.kitplummer.apigee.com/alpha/route/2":http://busted.kitplummer.apigee.com/alpha/route2 is a bit more developer friendly than the SunTran feed.
+Here's the service's site: "http://busted.kitplummer.apigee.com":http://busted.kitplummer.apigee.com
+
+There's some basic instructions there, but I think it is easy to see that "http://busted.kitplummer.apigee.com/alpha/route/2":http://busted.kitplummer.apigee.com/alpha/route/2 is a bit more developer friendly than the SunTran feed.
 
 We're talking about getting the Open Tucson group "together again":http://groups.google.com/group/open-tucson/browse_thread/thread/fbcc29feec7e8bcc on the 8th of July.  Check the Open Tucson "site":http://www.opentucson.org for the deets.

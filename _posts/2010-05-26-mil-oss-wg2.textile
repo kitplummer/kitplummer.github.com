@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Military OSS WG2
-tags: open miloss
+tags: open, miloss
 ---
 
 h1. {{ page.title }}
