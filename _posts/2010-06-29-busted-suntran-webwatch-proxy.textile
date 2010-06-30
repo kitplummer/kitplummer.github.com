@@ -1,0 +1,21 @@
+---
+layout: post
+title: Busted: A Tucson SunTran WebWatch Feed Proxy Service
+tags: open tucson
+---
+
+h1. {{ page.title }}
+
+It's been a bit...been too busy.  Changes coming.  Anywho...
+
+Back in December, we kicked off the "Open Tucson":http://www.opentucson.org/2009/12/first-meeting/ working group with the aspiration to push Tucson into the "open" limelight with many other forward-leaning municipalities. The city has some cool initiatives, services like "SeeClickFix":http://www.seeclickfix.com/tucson, that are making there way into public use.
+
+"SunTran":http://suntran.com/, the cities mass transit service, has made its bus service information, available in a close-to-realtime view via Google Maps or Microsoft Virtual Earth maps.  Even the data is being distributed in map form it would be really cool if SunTran made the raw information available for the opportunity of mobile apps, mashups or any innovative use.
+
+A few of us from the Open Tucson group met with SunTran last week to discuss.  While they are willing to help, they are somewhat handcuffed by the system that homes all the data behind the maps.  Ian Johnson, from the "Moia Group":http://www.moiagroup.com, and I poked around the client-side SunTran "WebWatch":http://www.suntran.com/webwatch/map.aspx?mode=g code a bit and found the data feed that the maps consume.  It's ugly, really ugly - "take a peek here":http://www.suntran.com/webwatch/UpdateWebMap.aspx?u=2.
+
+So, I built a simple "Sinatra":http://sinatrarb.com app to home a proxy service, to repackage the data into a more usable format.  I've put the service up under the "Heroku":http://heroku.com IaaS/PaaS, hey it's free.  In order to test, and more importantly capture analytics for, the proxy feed I've put the proxy behind "Apigee":http://www.apigee.com.  Apigee is a API proxy, that provides Google Analytics-like information about usage.  Cool stuff.
+
+Here's the service's site: "http://busted.kitplummer.apigee.com":http://busted.kitplummer.apigee.com.  There's some basic instructions there, but I think it is easy to see that "http://busted.kitplummer.apigee.com/alpha/route/2":http://busted.kitplummer.apigee.com/alpha/route2 is a bit more developer friendly than the SunTran feed.
+
+We're talking about getting the Open Tucson group "together again":http://groups.google.com/group/open-tucson/browse_thread/thread/fbcc29feec7e8bcc on the 8th of July.  Check the Open Tucson "site":http://www.opentucson.org for the deets.
