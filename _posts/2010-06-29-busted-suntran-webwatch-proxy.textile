@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Busted: A Tucson SunTran WebWatch Feed Proxy Service
+title: Busted - A Tucson SunTran WebWatch Feed Proxy Service
 tags: open tucson
 ---
 
