@@ -1,0 +1,24 @@
+---
+layout: post
+title: Pax Exam and ActiveMQ - Testing OSGi Bundles and JMS
+tags: osgi, testing
+---
+
+h1. {{ page.title }}
+
+I've been working with OSGi, specifically "Apache Felix/Karaf":http://karaf.apache.org, a lot lately.  I'm also building a few services that interact via JMS.  Being test-minded I was looking for a good way to automate testing of my bundles, possibly even deployed against multiple OSGi frameworks.  I found "PaxExam":http://wiki.ops4j.org/display/paxexam/Pax+Exam and become enamored with it's great features for integration testing OSGi bundles, or multiples thereof.  It provides a great API-based scheme for declaring dependent bundles, and means for fetching them from "Maven":http://maven.apache.org.
+
+There's already some great posts on using PaxExam, like this "one":http://www.jroller.com/habuma/entry/putting_osgi_to_the_test - so I won't get too much into that.  But here's how I was able to test a couple of "Blueprint":http://www.google.com/search?&ie=UTF-8&q=osgi+blueprint -based bundles that require a _javax.jms.ConnectionFactory_ to be injected.  I also am using ActiveMQ to run an embedded (within the test harness) JMS broker, and expose a ConnectionFactory to the OSGi service framwork.
+
+First, I create an embedded broker in the "setup" method, and create and register the ConnectionFactory:
+<script src="https://gist.github.com/747074.js?file=PaxExamBrokerSetup.java"></script>
+
+Note the disabling of the JMX in the broker - otherwise ActiveMQ will fail to launch because some OSGi framework initiate the same 1099 JMX port.
+
+Use the @Configuration annotation to setup the broker's required dependencies:
+<script src="https://gist.github.com/747098.js?file=PaxExamBrokerConfiguration.java"></script>
+
+Now, any @Test cases can send messages to bundles, and listen on topics or queues which bundles produce to.
+
+Lastly, I use the @After annotation and to shutdown the broker:
+<script src="https://gist.github.com/747097.js?file=PaxExamBrokerShutdown.java"></script>
