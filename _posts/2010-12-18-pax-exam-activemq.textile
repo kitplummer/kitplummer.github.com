@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pax Exam and ActiveMQ - Testing OSGi Bundles and JMS
+title: Pax Exam and ActiveMQ...Testing OSGi Bundles and JMS
 tags: osgi, testing
 ---
 
