@@ -1,0 +1,24 @@
+---
+layout: post
+title: Starting Up with MaestroDev Startup
+tags: devops
+---
+
+h1. {{ page.title }}
+
+
+I've recently started the next chapter of my working life.  I hesitate to call it a career, which seems more appropriate for doctors, teachers, and the like.  I suppose I am fortunate, however, to be able to fit work into a path called Software Engineering.  For the first time, I'll be working as a software engineer, for software engineers (and more).
+
+!http://www.maestrodev.com/sites/all/themes/maestrodev_v2/images/maestrodev_logo.png!
+
+The company I am joining is called "MaestroDev":http://www.maestrodev.com and our main product is Maestro.  More on Maestro in future posts, but quickly it is an build and private cloud environment that automates the build-test-release-deploy lifecycle from a single web interface, targeting enterprise development and operations shops.  How's that for marketeering? 
+
+Aside from the excitement I have for Maestro, I'm very pleased to get to spread the "DevOps":http://www.google.com/search?sourceid=chrome&ie=UTF-8&q=devops gospel.  In fact I'll be speaking at "DevOps Day":https://www.socallinuxexpo.org/scale9x/special-events/devops-day-los-angeles in LA on 2/25 as part of the greater Southern California Linux Expo event.  To top it off, I get to do all of this in the context of the big wide enterprise, and not just the Department of Defense industrial complex where I spent the majority of my waking hours.  This is such a huge opportunity for me that I can only hope to be able to make my mark and add value to it.
+
+I'm also very much looking forward to a new set of peers, meeting all of the people already committed to this space, as well as enlightening all of my current dever friends to the DevOps and modern software engineering ways.
+
+Here's to it!
+
+Have been toying with how to use QR codes, personally and professionally.  This one is just a link to the MaestroDev site, but we're thinking it would be cool to have it point to a bio page on our corporate site.
+
+!/images/maestrodev-qr-sm.png(MaestroDev QR Code)!
