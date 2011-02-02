@@ -5,14 +5,14 @@ reference: kitplummer.github.com
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <title>Kit Plummer's Blog Feed</title>
+    <title>Kit Plummer's DevOps Blog Feed</title>
     <link>http://{{ page.reference }}</link>
-    <description>RSS feed of blog by Kit Plummer</description>
+    <description>RSS feed of DevOps-related blog posts by Kit Plummer</description>
     <pubDate>{{ site.time | date: '%a, %d %b %Y %H:%M:%S CST' }}</pubDate>
     <lastBuildDate>{{ site.time | date: '%a, %d %b %Y %H:%M:%S CST' }}</lastBuildDate>
     <webMaster>kitplummer@gmail.com</webMaster>
 	
-	{% for post in site.posts limit:10 %}
+	{% for post in site.categories.devops limit:10 %}
  	<item>
    		<title>{{ post.title }}</title>
    		<link>http://{{ page.reference }}{{ post.url }}</link>

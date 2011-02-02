@@ -2,6 +2,8 @@
 layout: post
 title: Trust as the Cornerstone of DevOps Culture
 tags: devops
+categories:
+- devops
 ---
 
 h1. {{ page.title }}
