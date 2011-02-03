@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="retweet">
+<!--<div class="retweet">
     <script type="text/javascript">
         tweetmeme_source = 'kit_plummer';
     </script>
@@ -15,21 +15,32 @@ layout: default
     <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript">
     </script>
 </div>
+-->
+<b>Please share:</b><br />
+<span class="st_twitter_large" displayText="Tweet"></span>
+<span class="st_facebook_large" displayText="Facebook"></span>
+<span class="st_linkedin_large" displayText="LinkedIn"></span>
+<span class="st_ybuzz_large" displayText="Yahoo! Buzz"></span>
+<span class="st_gbuzz_large" displayText="Google Buzz"></span>
+<span class="st_email_large" displayText="Email"></span>
+<span class="st_sharethis_large" displayText="ShareThis"></span>
 <div id="post">
 {{ content }}
 </div>
-
+<br />
+<b>Please comment:</b>
 <div id="disqus_thread">
 </div>
 <script type="text/javascript" src="http://disqus.com/forums/bcip/embed.js"></script>
 <noscript><a href="http://bcip.disqus.com/?url=ref">View the discussion thread.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-<div id="related">
+<!--<div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in related_posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
+</div>-->
+

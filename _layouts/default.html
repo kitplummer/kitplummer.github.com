@@ -1,80 +1,72 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Kit Plummer" />
-   <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Sitewide RSS Feed" />
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="Kit Plummer" />
+    <link href="/rss.xml" rel="alternate" type="application/rss+xml" title="Sitewide RSS Feed" />
 
-   <!-- jquery -->
-   <script type="text/javascript" src="/js/jquery/jquery.js"></script>
+    <!-- jquery -->
+    <script type="text/javascript" src="/js/jquery/jquery.js"></script>
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-   
-   <!-- other js/css stuff -->
-   <script type="text/javascript" src="/js/prototype.js"></script>
-   <script type="text/javascript" src="/js/scriptaculous.js?load=effects,builder"></script>
-   <script type="text/javascript" src="/js/lightbox.js"></script>
-   <link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
-</head>
-<body>
-  <a href="http://github.com/kitplummer"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://assets1.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85?repo=&url=http%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_right_gray_6d6d6d.png&path=" alt="Fork me on GitHub"></a>
-<div class="site">
-    <div class="header">
-              kit plummer's space.
+    <!-- Homepage CSS -->
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+    <!-- other js/css stuff -->
+    <script type="text/javascript" src="/js/prototype.js"></script>
+    <script type="text/javascript" src="/js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+    <link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'cf6622e1-90b5-4e5a-8da2-b5b842239049'});</script>
+  </head>
+  <body>
+    <a href="http://github.com/kitplummer"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://assets1.github.com/img/71eeaab9d563c2b3c590319b398dd35683265e85?repo=&url=http%3A%2F%2Fs3.amazonaws.com%2Fgithub%2Fribbons%2Fforkme_right_gray_6d6d6d.png&path=" alt="Fork me on GitHub"></a>
+    <div class="site">
+      <div class="header">
+        <a href="/rss.xml"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></a>
       </div>
-  <div class="title">
-    <a href="/"><img src="/images/bhl_bandw.png" alt="BHL logo" border="0"></a>
-    <a class="extra" href="/">> blog home</a>
-  </div>
-      <div class="content">
-          {{ content }}
-    </div>
-  <div class="footer">
+
       <div class="contact">
-        <br/>
-        <img src="/images/maestro_sm.png" alt="maestrodev">
-      </div>
-    <div class="contact">
-      <p>
+
+        <img src="http://www.gravatar.com/avatar/f1a41f00eac91827a1f46959ec99bc12?s=80" style="float:left; padding-right:10px; padding-top:3px">
+        <p>
         <b>Kit Plummer</b><br/>
         Software Engineer :: Techitect :: Evangelist<br/>
-        kitplummer@gmail.com<br/>
-	kitplummer (AIM,Yahoo!IM,Gtalk,Skype)<br/>
-      </p>
-    </div>
-    <div class="rss">
-      <a href="/rss.xml"><img src="/images/rss.png" alt="Subscribe to RSS Feed" /></a>
-    </div>
-    <div class="contact">
-      <p>
+        <a href="mailto:kitplummer@gmail.com">kitplummer@gmail.com</a><br/>
+        kitplummer (AIM,Yahoo!IM,Gtalk,Skype)<br/>
+        </p>
+      </div>
+
+      <div class="content">
+        {{ content }}
+      </div>
+      <div class="footer">
+        <p>
         <a href="http://www.maestrodev.com">MaestroDev</a> :: 
         <a href="http://www.dozersoftware.com"><b>dozer</b>Software</a> :: 
         <a href="http://www.mil-oss.org/">Mil-OSS</a>
-      </p>
-      <p>
+        </p>
+        <p>
         <a href="http://github.com/kitplummer/">github.com/kitplummer</a> :: 
         <a href="http://twitter.com/kit_plummer/">twitter.com/kit_plummer</a> :: 
         <a href="http://www.facebook.com/kitplummer">facebook.com/kitplummer</a>
-      </p>
+        </p>
+      </div>
     </div>
-  </div>
-</div>
 
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-2886473-4");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-2886473-4");
+        pageTracker._trackPageview();
+      } catch(err) {}</script>
 
-</body>
+  </body>
 </html>
 
 
