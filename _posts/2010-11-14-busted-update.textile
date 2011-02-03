@@ -2,6 +2,8 @@
 layout: post
 title: Busted Update...Open Development/Government.
 tags: open, tucson
+categories:
+- tucson
 ---
 
 h1. {{ page.title }}

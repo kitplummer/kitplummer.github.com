@@ -2,6 +2,8 @@
 layout: post
 title: Busted - Now Feeding JSON
 tags: open, tucson
+categories:
+- tucson
 ---
 
 h1. {{ page.title }}
