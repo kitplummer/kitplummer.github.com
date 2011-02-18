@@ -22,7 +22,7 @@ Of course, you have to have already installed VirtualBox. But, this gets you a b
 
 This works great for me, as one of my target environments is CentOS 5.5.  Yep, you guessed it - theres an available CentOS5.5 box available for downloading/running. I've learned the hard way that you have to keep each environment in its own directory, because the VM settings are stored in a file called Vagrantfile.  
 
-<pre><code>$ mkdir CentOS5.5
+<pre><code>$ mkdir CentOS5.5 && cd CentOS5.5
 $ vagrant box add centos http://dl.dropbox.com/u/15307300/vagrant-0.7-centos-64-base.box
 $ vagrant init centos
 $ vagrant up
