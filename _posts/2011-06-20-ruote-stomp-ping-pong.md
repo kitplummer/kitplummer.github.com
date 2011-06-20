@@ -73,10 +73,3 @@ ping-pong-engine/).
 ➜  ping-pong-engine ruby lib/main.rb
 ```
 
-That's it.  Pretty cool eh...pretty simple distributed workflow example using Stomp as the distribution protocol.
-
-The workflow definition is easily understandable:
-
-<p>
-<script src="https://gist.github.com/1035804.js?file=pdef.rb"></script>
-</p>
