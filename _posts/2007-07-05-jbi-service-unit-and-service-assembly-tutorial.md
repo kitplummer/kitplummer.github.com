@@ -1,0 +1,16 @@
+---
+layout: post
+title: JBI Service Unit and Service Assembly Tutorial...
+---
+
+I created this screencast a while back to show a few in-house developers
+how to create Service Units and Service Assemblies for deploying to
+ServiceMix.
+
+\[Screencast\](http://www.blackholelogic.com/assets/2007/7/5/servicemix-lwcontainer\_screencast.mov)
+
+Might be worth looking at. The maven archetype commands need some
+updating to get with the current
+\[FUSE\](http://www.logicblaze.com/content/view/67/99/) release. Also,
+IONA should be assuming the FUSE product line shortly - so FUSE may show
+up over at http://www.iona.com soon enough.

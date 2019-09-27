@@ -1,0 +1,45 @@
+---
+layout: post
+title: MIL-STD-2525 Service Needed
+---
+
+{{ page.title }}
+================
+
+![](http://upload.wikimedia.org/wikipedia/commons/7/71/APP-6a_Example2.png)
+
+[MIL-STD-2525B](http://en.wikipedia.org/wiki/APP-6A) is a subset/cousin
+of a STANAG standard for military symbology. We’re interested in these
+symbols as map icons. There’s
+[proprietary](http://www.objectraku.com/06_prodserv/symbolsindex.htm)
+options - but, that forces a specific library/framework.
+
+Obviously, especially within the Mil/DoD space, not everything makes
+sense to be an Open Source Software project. But, then somethings just
+lend themselves to the [Open Technology
+Development](http://www.acq.osd.mil/jctd/articles/OTDRoadmapFinal.pdf)
+ideals.
+
+Where there is low intellectual property and high-potential for existing
+OSS reuse - it’s one of those latter prospects.
+
+All I want to be able to do is retrieve the appropriate icon based on a
+given [symbol
+code](http://webhelp.esri.com/arcgisdesktop/9.1/body.cfm?tocVisable=1&ID=2778&TopicName=Symbol%20ID%20code)
+
+Nothing complicated and sounds like a great web-based service (read API)
+candidate right?
+
+I’ve talked to at least four different people with different
+organizations who’ve all purported to have solved this problem
+internally. I’m trying to work within the
+[Mil-OSS](http://www.mil-oss.org) working group here and
+[GTRI](http://www.gtri.gatech.edu/) (as well as within Accenture) to
+find a good starting point. But, maybe in this case it is worth just
+getting something starting - and hoping the *build it and they will
+come* attitude works.
+
+This is likely a Forge.mil candidate - but, I can’t help feel like it
+makes sense for this thing to be fully “Open”.
+
+Thoughts?

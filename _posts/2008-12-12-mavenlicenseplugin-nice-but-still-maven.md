@@ -1,0 +1,62 @@
+---
+layout: post
+title: Maven-License-Plugin, Nice but Still Maven...
+---
+
+Any time I have to figure out a new [Maven](http://maven.apache.org) I
+cringe with sour anticipation. This go ’round is with the
+[maven-license-plugin](http://code.google.com/p/maven-license-plugin/).
+All things considered my expectations were pretty low.
+
+This is one of those good news/bad news stories.
+
+The good news is that I was able to get the plugin integration into my
+Maven structure very quickly. The bad news is that it took me forever to
+get things going through all of my Modules correctly. In fact, one of
+the modules is a [Grails](http://grails.org) project - which still isn’t
+getting its .gsp files checked. Figuring out the “exclusion” list is
+still a work in progress. But, here’s the deal. The element
+<useDefaultExcludes>true</useDefaultExcludes> doesn’t work through to
+modules.
+
+So I ended up with something like this:
+
+<filter:jzfilter lang="xml">  
+<excludes>  
+<exclude>/pom.xml</exclude>  
+<exclude>**/webtest/**</exclude>  
+<exclude>**/web-app/**</exclude>  
+<exclude>**/test/reports/**</exclude>  
+<exclude>**/products/**</exclude>  
+<exclude>**/plugins/**</exclude>  
+<exclude>/\*.log</exclude>  
+<exclude>/\*.jar</exclude>  
+<exclude>/\*.properties</exclude>  
+<exclude>/\*.dtd</exclude>  
+<exclude>/\*.tld</exclude>  
+<exclude>/\*.txt</exclude>  
+<exclude>/\*.gif</exclude>  
+<exclude>/\*.png</exclude>  
+<exclude>**/target/**</exclude>  
+<exclude>/\*.class</exclude>  
+</excludes>  
+</filter:jzfilter>
+
+And according to the docs this:
+
+<filter:jzfilter lang="xml">  
+<mapping>  
+<kml>XML\_STYLE</kml>  
+<gsp>XML\_STYLE</gsp>  
+<launch>XML\_STYLE</launch>  
+</mapping>  
+</filter:jzfilter>
+
+Should provide the added file extension handling needed for my Grails
+project. No va. Well, actually it worked once…in typical Maven fashion.
+
+Ok, enough of the negativity. The plugin is awesome. It has the ability
+to specify a different header for each module, and maps many different
+comment styles to different language/texts. Just be sure to not use a
+header that is already commented out. ;) As soon as I resolve **my**
+issues I will update.

@@ -1,0 +1,29 @@
+---
+layout: post
+title: Moving to Github...
+tags: test, test1
+---
+
+{{ page.title }}
+================
+
+In order to save a few bucks on a domain name and a hosting service
+(blackholelogic.com) and to show support for one of my favorite web
+services I’m moving my blog, in earnest, over to Github pages.
+
+It isn’t really about the money, seriously. Mephisto, the framework that
+BHL sits on is dating, rapidly and I will not use WordPress, or any of
+the blog hosts like Blogger. I’d used Github pages to host a
+professional blog for a bit, and that’s now past. It came down to using
+Github or a simple site at Heroku. Since I’m also a brewing Git fan I
+figure why no the former. Having the blog hosted was also starting to
+make me nervous as I wasn’t really sure how it was backed up, if at all.
+By using Git/Github the archive is naturally built-in.
+
+There’s a few things that are missing from the Jekyll-based environment
+at Github - which I hope to leech from someone else, or dev myself
+pretty soon. Tag/category support will be pretty high on the list. We’ll
+see.
+
+So long Black:Hole:Logic - hello <http://kitplummer.github.com> - see
+you on the other side.

@@ -1,0 +1,35 @@
+---
+layout: post
+title: The Golden Rule?
+---
+
+{{ page.title }}
+================
+
+I don’t know much about Teradata, just enough to know that there is
+mindshare. The Golden Rule as [defined
+here](http://smartdatacollective.com/Home/20830) is “that motivated
+people will do whatever it takes to try and be successful”.
+
+I think this will ultimately be my downfall. I think I have it sooo bad
+that I tend to navigate towards the biggest roadblocks.
+
+But, I think there’s a brewing realization that unintentional
+“skunkworks” are indeed OK, and should not just be accepted but
+promoted. In the software engineering world the fear is usually around
+“cowboycoding”, or the hacking of solutions. Cowboycoding in a
+team-based environment can be detrimental. Cowboycoding in an individual
+environment is natural. Why the disconnect? Well, because within the
+team constraint we aim to high, generally right off the bat.
+Fortunately, Agile methodologies have done much to dispel the
+negativities of formal cowboycoding.
+
+So…what if an environment was provided for “skunkworks” to be organized,
+facilitated, and managed? [This
+article](http://www.teradata.com/t/templates/blogs/emea/viewblog.aspx?id=11198&blogid=27036)
+does well to describe the potential.
+
+A huge piece of BCIP is the ability to provide data access, and sensible
+tools to build modern, and sustainable solutions (in a self-serving
+skunky sort of way). Don’t preclude innovation, but disabling
+individuals. Find ways to motivate, and the Golden Rule will be an ally.

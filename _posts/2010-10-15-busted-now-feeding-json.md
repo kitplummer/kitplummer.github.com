@@ -1,0 +1,24 @@
+---
+layout: post
+title: Busted - Now Feeding JSON
+tags: open, tucson
+categories:
+- tucson
+---
+
+{{ page.title }}
+================
+
+It’s been a bit…been too busy (yep, broken record :)).
+
+Here’s the service’s site: <http://busted.kitplummer.apigee.com>
+
+<http://busted.kitplummer.apigee.com/beta/route/2.json> shows the feed
+for Route \#2: “Cherrybell/Country Club”
+
+The list of all routes can be fetched too:
+<http://busted.kitplummer.apigee.com/beta/routes.json>
+
+I’m starting to look adding support for the [General Transit Feed
+Specification](http://code.google.com/transit/spec/transit_feed_specification.html)
+and publication to Google’s transit feeds. Stay tuned…

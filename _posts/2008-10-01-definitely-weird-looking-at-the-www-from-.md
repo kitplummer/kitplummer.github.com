@@ -1,0 +1,11 @@
+---
+layout: post
+title: Definitely Weird Looking at the WWW from '98...
+---
+
+Searching through [Google’s 2001
+index](http://www.google.com/search2001.html) I found a site I
+designed/developed back in 1998. Very weird to see it now. Kinda
+funny…that dude with swinging, that’d be me.
+
+<http://web.archive.org/web/20010516235346/www.geminisports.com/>

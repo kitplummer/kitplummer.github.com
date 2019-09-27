@@ -1,0 +1,12 @@
+---
+layout: post
+title: OpenEmbedded not Intrepid (Ubuntu)...
+---
+
+I’ve run in to many different issues trying to build
+[OpenEmbedded](http://wiki.openembedded.net/) or recipes on Ubuntu 8.10
+Intrepid. The list kept getting longer, with fixes to some and
+workarounds to others. Just setup a new 8.04LTS (server) VM and all
+works clean, straight-out-of the box. Back to progress…and thanks to the
+Gumstix mailing list for not responding to my question, forcing me to
+give this a shot. ;)

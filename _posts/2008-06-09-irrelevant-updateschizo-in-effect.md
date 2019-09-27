@@ -1,0 +1,98 @@
+---
+layout: post
+title: Irrelevant Update...Schizo in Effect.
+---
+
+So, I’ve been “offline” for a bit. Had a short break in the academic
+dimension, money issues in the corporate dimension, and general
+techno-depression (where I just don’t give a shnizzle about any of it) -
+all of which removed any desire to be at the ole puter.
+
+Not much has changed accept I’m back at it - for my last graduate class
+evar.
+
+There’s been some interesting things happening in my techie-world. I
+just can’t seem to get any motivation going to care. Lot’s of good
+discussions around Groovy, JRuby and virtual machines in general.
+Functional Programming seems to be the snowball that is sucking people
+up for no good reason. Open source hardware, smaller and smaller
+processors, and almost the dead quiet before the tornado in the
+networking world. Apple still is going nuts though I am already tired of
+the continued iPhone hype. Maybe I’m just jealous because I am stuck
+with a 1st-gen’er. I really wish there would be some big news from
+today’s MacWorld Keynote about OS X or their other platforms
+(non-iPhone). Still waiting for that.
+
+I still subscribe to Linux Journal magazine - but, am not really sure
+why. The content is lame…and is second rate to most of the blogs I read
+anyway. There’s nothing new in that space…especially from the OS
+perspective. Reading it this morning kind of took me back to somewhere
+around ’93 when I first saw Linux running on a friends Packard Bell PC.
+It was kind of funny … I was supposed to be getting a demo of this
+awesome Windows alternative called OS/2 (which is now completely dead).
+I got so hooked on the story of Linux that I could’ve cared less about
+OS/2. I’d seen some UNIX before this - and pretty much favored DOS over
+Win3.X at the time. Slackware (the Linux distro) was cool, not because
+of the software itself, but rather the culture. I’m not sure what
+happened, but it really feels like that culture is gone, replaced by
+ego-driven twerps with zero appreciation. Kind of like yoga’s
+americanized incarnation (downward facing dog instead of Adho Mukha
+Svanasana). I kind of get the same old-skool Linux feel from the Ruby
+(not Rails) community, which is cool. The difference for me between then
+and now, is that I really could care less if anyone jumps on the Ruby
+bandwagon. Back then, I was a religious zealot about Linux - preaching
+to anyone who’d listen (and even those who didn’t want to hear it).
+Maybe it is just a funk…but, I’m kind of just tired. In the early 2000 I
+was beating the IPv6 drum only to have my head constantly bashed against
+a wall by corporate idiots. At some point I think I’ve just
+subconsciously realized that it will all unfold however it damn well
+pleases and there’s no point in me caring one way or the other (I’m
+really just along for the ride). I suppose the sooner I consciously
+accept this the better off I will be.
+
+Then, there is the whole “human” angle…like I should be trying to save
+the race or something. Like where ever I put my energy should be for the
+greater good (or something). All this green crap, the election politics,
+fuel prices, my rapidly thinning scalp coverage, blah, blah, blah. It
+really is rather depressing. Oh wait, I’m not supposed to care about the
+number of hairs listing from the top o’ my head…green, green is good.
+Damn, green is bad. Green means we’ve already screwed up and attempting
+to care. Then I read O’Reilly’s latest blog post and return to proud
+American mode. Sorry…can’t…help…myself…ahhhhhhhh…the…madness. It’s The
+Happening.
+
+I watched Discovery’s deal on NASA (leaving Earth…) last night. Really
+frickin’ cool. We pretty much suck as a country these days. I wish we
+could have a Kennedy lead us to the Moon right about now. Just looking
+forward would be nice. These tiddly little mission to Mars with a robot
+just aren’t doing it either. Don’t get me wrong on understand the
+relevance of the Phoenix missions - but without human life on the line
+it isn’t the same. Those guys working Mercury, Gemini and Apollo (my Dad
+included) were the bomb. No computers to solve the problems…just smart
+people working it out. That’s effin’ amazing. Anyway…that was then, this
+is now. Tomorrow we’ll still be worrying about $5/gallon gas.
+
+So. What was I saying? Techno-depression…that overwhelming feeling that
+it is simply impossible to feel like you are doing anything relevant,
+let alone worthy. I can’t seem to latch on to any one thing long enough
+to feel like I’ve made my mark. The ‘master of nothing’ syndrome in full
+effect. I’m basically in information overload…damn you Google Reader!
+Add in a mix of ‘mobile me’ and it is all over. I just spent a week at
+the ocean (in and out of the water). It was all I could do to not open
+Google Reader from my iPhone. Fear of the 600 new feeds I’d have to wade
+through was killing me. I’m an addict for sure. Is there an Informatics
+Anonymous?
+
+Actually, I’m doing pretty good now. High of 104 degrees today. Back at
+work, the routine is definitely soothing. Performance evaluation this
+morning. Kids are doing well, one is visiting Zion the other I have no
+clue what he’s up to. All I know is that every time I get near him he
+closes his computer, phone, etc. as fast as possible. Is that a sign?
+Went and saw the Indy Jones movie last night. I’m definitely getting
+old…but somehow guys like Harrison Ford and Clint Eastwood don’t - and
+not in the Barry Bonds sort of way (not older, and not bigger at the
+same time). The movie was OK. Definitely in line with the others. Weird
+that Lucas et al. progress from religious relics to alien encounters…or
+maybe progress is the wrong verb.
+
+Well, lunch is over. Back to work. Peace in.

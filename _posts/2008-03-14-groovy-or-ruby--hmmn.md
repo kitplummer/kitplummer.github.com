@@ -1,0 +1,25 @@
+---
+layout: post
+title: Groovy or Ruby?  Hmmn...
+---
+
+There’s a lot of excitement about [Groovy](http://groovy.codehaus.org)
+in my circles. There should be. As has been said elsewhere Groovy could
+quite possibly replace the Java language as the predominant
+code-language for writing JVM-running apps. But.
+
+To add a bit of fuel to the fire - and one of the reasons that I’m
+choosing to look harder at [Ruby](http://www.ruby-lang.org) in
+particular - is … try running a Groovy script without Java or a JVM.
+Don’t get me wrong this isn’t so much a knock against Groovy as it is
+praise for Ruby. One of the things I really like about Ruby is how
+quickly I can not only code up a prototype of some functionality, but
+more importantly how quickly I can run it and get the results and try
+again. In a Test-Driven environment this is extremely important.
+
+With [JRuby](http://jruby.codehaus.org) I even get basically the same
+kinds of Java integration as Groovy. Indeed this is an exciting time in
+the development of virtual machines and their support for many
+languages. Sun is playing catchup with MS’s CLR. But, I just don’t want
+to be tied to any virtual machine…which makes Ruby just slightly more
+attractive to (right now).

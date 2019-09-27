@@ -1,0 +1,72 @@
+---
+layout: post
+title: People before Projects FT(Innovation)W
+---
+
+{{ page.title }}
+================
+
+The Open Source phenomenom that has evolved into a full-on commercial
+arena tends to get lost in noise. There’s no doubt that the
+commercialization of Open Source is a good thing for both sides.
+However, up for discussion is where the real innovation happens, and is
+fostered. I belief the *correct* answer is both; innovation is found at
+the individual as well within the careful boundaries provided by
+strategic constraints of an organization. I don’t want to get too hung
+up on this thinking, at this point. So, If you’ll bite on my [definition
+of
+Innovation](http://kitplummer.github.com/2009/07/02/social-coding-in-the-dod.html)
+then we can continue to propose that innovation actually happens first
+at the individual.
+
+Traditionally, Open Source Software (OSS) projects are maintained under
+an “umbrella” infrastructure with typical pieces (e.g. wikis, mailing
+lists, issue tracking, and SCM). This was generally required to maintain
+the hierarchical structure of role-based access. However, recently,
+there’s been a slight rearrangement of this structure, with the subtle
+movement of the SCM piece out - decoupled from the projects. These types
+of changes were highly influenced by Linux’s requirements to better
+manage its codebase. Linus Torvalds, the inventor of Linux, himself
+designed a new system for version control (after attempts at using
+alternative SCM systems). This new model was based on a fully
+distributed model, rather than the typical client-server/hosted model
+that is commonly deployed today for both proprietary and Open projects.
+Git, Linus’ implementation, is now used by Linux as well as many other
+prominent projects - known for their innovation.
+
+The key attribute (avoiding the nitty-gritty details here) of Git, and
+other distributed code management systems, is the ability to distribute
+the potential for innovation out to individuals. Considering that the
+same licensing apparatus exists for current OSS projects - the ability
+to give an individual an opportunity for improving or compounding on
+already “in-progress” innovation is extremely powerful. Distributed
+version control systems allow for developers to focus on their piece of
+interest, and the ability to stay “in tune” with where the origin
+project (and all other “forks”). Sure, everyone benefits if
+improvements/enhancements roll up, but they don’t have to.
+
+\[Tools like [GitHub](http://github.com),
+[BitBucket](http://bitbucket.org), and [Launchpad](http://launchpad.net)
+are pushing the social aspect of individuals collaborating, based on
+distributed source management.\]
+
+Sure, projects are made up of individuals. The delta here is just the
+priority to focus on the individual first and the relationships. It is
+still very possible to maintain a “project” using tools like GitHub, and
+enforce a structured access list (as well as centralize the code). But,
+where problems are small, and solutions are simple it really only makes
+sense to provide the ecosystem for collaboration and innovation. And, if
+you follow the logic here you’ll understand how individual collaboration
+is really the path to evolving simple solutions into projects.
+
+Imagine if every individual in your organization was a potential
+solution provider. Now, imagine the potential innovation that could
+occur by empowering them with the infrastructure, training and support
+to solve problems.
+
+[RubyOnRails](http://github.com/rails/rails/tree/master) is a great
+example of a [ecosystem](http://rubyonrails.org/ecosystem) - people
+first, project is the output. There are many others without a doubt.
+
+[Linux is a registered trademark of Linus
+Torvalds.](http://www.linuxmark.org/)

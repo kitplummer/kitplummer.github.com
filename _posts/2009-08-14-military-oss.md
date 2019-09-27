@@ -1,0 +1,46 @@
+---
+layout: post
+title: Military Open Source Software
+---
+
+{{ page.title }}
+================
+
+Sitting at Day Two of the inaugural Mil-OSS Working Group event at
+Georgia Tech Research Institute’s facilities. First day was good, but I
+can’t help but feel like we’ve not made much progress over the past few
+years. I suppose my attitude of “just do open source” hasn’t helped this
+much. But honestly, I’m not up for COTS vs OSS vs GOTS discussions, or
+diving into the details of the GPL - we really should be past that by
+now. I do realize that this stuff is really complex. Complexity
+overwhelms in both the political and technical details of how contracts
+and programs are managed. Hopefully the Mil-OSS group will begin to
+capture these discussions in a FAQ or something similar so we don’t
+digress.
+
+Something else that is apparent, is that we, as contractors, are
+continuously looking for approval to do open source. Sure, contracts are
+littered with legalese precluding a maverick approach. But, what’s wrong
+with just working with your customer to figure out how to do it. Keep in
+mind, that I’m not just referring to “opening” entire programs (of
+record) worth of source. Just use common sense. If you can contribute to
+projects that already exist, which you are using - or have the need to
+extend/adapt an existing project - just open it. If there are IP
+concerns - be smart in your architecture as to not wrap it up inside
+code that *could* be opened.
+
+Good to know that there is movement at the DoD CIO office with Dan
+Risacher, a smart guy for sure. I’ll be eagerly waiting for updated
+policies, but will continue to work with our customers directly to
+maximize the value of doing open source work.
+
+How about bringing the DoD, and it’s requirements to the OSS community,
+rather than the other way around? Just a thought.
+
+\[Big thanks to the GTRI crew for hosting the Mil-OSS event!\] Thanks
+specifically to Joshua Davis for herding us cats, and pushing us in the
+right direction. Also, thanks to all those that took time out to
+participate - it shows that we’re on to something. ;)
+
+Follow the content on Twitter: @miloss  
+Or, the site: <http://mil-oss.org>

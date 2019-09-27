@@ -1,0 +1,27 @@
+---
+layout: post
+title: Gene Manipulation == Software Engineering?
+---
+
+According to Michael Crichton, it is true.
+
+“In reality, the task of injecting a gene into an animal and making it
+work more closely resembled debugging a computer program that it did any
+biological process. You had to keep fixing the errors, making
+adjustments, eliminating unwanted effects, until you got the thing
+working. And then you had to wait for downstream effects to show up,
+sometimes years later.”
+
+Crichton writes this in
+[Next](http://www.crichton-official.com/books-next-history.html), his
+fictional book covering many of the topics and themes associated with
+genetic science. Pretty cool book, and a reminder of how capable a good
+author is of mixing fiction, with fact to push there view on specific
+subjects.
+
+Anyway, I thought it very insightful of Crichton to pair genetic
+manipulation with software development. I think most of us, born into
+the information age, have very little understanding of how complex
+software engineering and computer science really are. The dynamic nature
+of computing platforms obviously don’t compare to any living thing’s
+genome, but it is pretty damn close.

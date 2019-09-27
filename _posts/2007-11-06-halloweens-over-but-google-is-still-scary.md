@@ -1,0 +1,62 @@
+---
+layout: post
+title: Halloween's Over, But Google is Still Scary...
+---
+
+Is no one else out there starting to get a little nervous about Google?
+Although, I’d I really like to believe they are still in “change the
+world” mode there are just too many weird signs.
+
+The [issue](http://blogs.cnet.com/8301-13505_1-9755112-16.html)
+revolving around Google’s lack of contributions to source code has me a
+bit puzzled. The fairly recent announcement about [Google and
+MySQL](http://www.informationweek.com/news/showArticle.jhtml?articleID=199202274)
+would seem to squash this problem. But, I don’t think it really does. It
+is really just Google’s way of improving the product lifecycle, for
+their benefit. (I do agree in principal that this is a benefit of OSS,
+though I’m not sure MySQL qualifies.) So, why wouldn’t they just
+contribute the code for all of their effort - whether they are morally
+obligated to or not? Business? Afraid of Yahoo!, MS, or someone else?
+Just doesn’t really make sense. I’m not expecting them to give away
+their entire architecture - just the improvements to OSS-licensed code.
+
+I don’t have a problem with Google’s weblications…maybe, because I don’t
+really see them as relevant just quite yet. But, Gmail is something that
+I’ve really started to like. Strange thing is that I can’t tell you why.
+Maybe it is simple because SPAM hasn’t caught up with me there yet…like
+it did at Yahoo! And, the search is by far the best. I even use iGoogle
+as my main page…though since GReader has come to fruition I don’t find
+myself at “home” very often. Google Maps are the best, and as an iPhone
+user I appreciate them even more. Google Earth, well it is just cool. As
+a Mac user I scoffed at Google Desktop, then tried it, then dumped it
+because it took over my system (always processing). GoogleTalk, I use
+it. code.google.com - could be good. The list goes on and on. And,
+that’s the piece that begs the question..why?
+
+Then there’s this OpenSocial thing. I’m not sure I really understand the
+point. Standards are good, when they are governed appropriately. Having
+Google be the standard, and standard authority is not a good thing - how
+quickly we forget the Microsoft Word quagmire. There is a huge
+difference between “common” and standard (de facto or not). The only
+difference here, is that a lot of “follower” companies are getting on
+board early to avoid missing an opportunity.
+
+So, today we get Open Handset Alliance. What exactly is Google doing?
+Propaganda. There are blog-grumblings of VaporWare. Frankly, I don’t
+want Open in my phone. Just like I don’t want Open in my ABS on my car.
+Are we not just taking this Open thing a bit too far, for the wrong
+reasons. Let’s be real. Google’s not an Open Source Software company.
+The laundry list of OHA members is the usual suspects…but, I’m curious
+at the motives (same as OpenSocial).
+
+[Evil](http://www.motherjones.com/news/feature/2006/11/google.html) -
+probably not. But, here’s Google’s public mission statement:
+
+“Our mission is to organize all the world’s information and make it
+universally accessible and useful.”
+
+I’m not sure how they get from there to the GPhone…and that is what
+scares me. What’s next GBankAccount? I’m seriously considering going
+back to Yahoo! Mail…but, I don’t like having to use the web-interface.
+It is almost like Google is making it so easy for me to give them all of
+my data…

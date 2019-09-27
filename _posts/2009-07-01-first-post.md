@@ -1,0 +1,20 @@
+---
+layout: post
+title: BCIP, First Post
+---
+
+{{ page.title }}
+================
+
+Dog fooding. I’m not exactly sure how this term came about, but for us
+techies it means using what we build. Since I’m pushing GitHub:FI as a
+piece of Accenture’s BCIP solution stack I figure it would be good to
+try and show GitHub’s inherent innovation. Thus, I’ll be blogging about
+our BCIP work here, rather than my personal blog at
+[black:hole:logic](http://blackholelogic.com).
+
+I did throw out a teaser:
+<http://www.blackholelogic.com/2009/6/30/social-coding-in-the-dod> which
+is the unofficial blogging kick-off.
+
+More to come shortly.

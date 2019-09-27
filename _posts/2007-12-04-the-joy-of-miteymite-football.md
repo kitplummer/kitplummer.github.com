@@ -1,0 +1,9 @@
+---
+layout: post
+title: The Joy of Mitey-Mite Football
+---
+
+![](http://www.blackholelogic.com/assets/2007/12/4/caiden_tropy.JPG)
+
+I’m actually starting to wonder if his Dolphins team could beat the real
+one.

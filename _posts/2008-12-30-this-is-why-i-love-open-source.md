@@ -1,0 +1,15 @@
+---
+layout: post
+title: This Is Why I Love Open Source...
+---
+
+    checking whether to support zlib... using included version
+    checking for libusb... checking for libusb-config... true
+    checking for usb_interrupt_read in -lusb... yes
+    checking for random stuff to make you feel better... failed
+
+  
+<br><br>  
+To protect the innocent I’ll keep the app protected…but, I just love the
+embedded humor. And to top it all off “./configure” failed to find
+anything random to make me feel better. Geez.
